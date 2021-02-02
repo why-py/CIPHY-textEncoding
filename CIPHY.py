@@ -62,12 +62,12 @@ commands:
 
 other options:
      
-     -so  [path]                  (SaveOutput)saves only outpout into the given .txt file path.
+     -so  [path]                  (SaveOutput)saves only output into the given .txt file path.
 
      -sa  [path]                  (SaveAll)saves all the i/o into the given .txt file path.
 
      example:
-                md5 -sa C:/users/mobin/Desktop/outpout.txt hello
+                md5 -sa C:/users/mobin/Desktop/output.txt hello
                 
 '''
 
@@ -420,7 +420,7 @@ def main():
 
                     print('Output:\n\n'+cipher)
 
-                    file_name = stdin.split('-so')[1].replace(text,'')
+                    file_name = stdin.split('-sa')[1].replace(text,'')
                     file_name = file_name.replace(' ','')
                 except:
                     print('something is wrong !')
