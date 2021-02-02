@@ -1,5 +1,5 @@
 # CIPHY-textEncoding
-CIPHY text Encoding / Decoding / Hashing
+CIPHY text Encoding / Decoding / Hashing tool
 written in python
 
 a simple tool with simple commands!
